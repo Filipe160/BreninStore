@@ -52,8 +52,9 @@ function finalizarCompra() {
 
   mensagem += `%0ATotal: R$ ${total.toFixed(2)}`;
 
-  const telefone = "5531999999999"; // COLOQUE SEU NÚMERO
+  const telefone = "5531975474500"; // COLOQUE SEU NÚMERO
   window.open(`https://wa.me/${telefone}?text=${mensagem}`, "_blank");
 }
 
 renderCart();
+
