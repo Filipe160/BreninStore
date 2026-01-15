@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrinho</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Meu Carrinho</h1>
+  <nav>
+    <a href="index.html">Voltar para loja</a>
+  </nav>
+</header>
+
+<section class="container">
+  <h2>Produtos selecionados</h2>
+
+  <div id="cartItems"></div>
+  <h3 id="total"></h3>
+
+  <button class="clear-cart" onclick="clearCart()">
+  Limpar carrinho
+</button>
+
+  <button class="whatsapp-btn" onclick="finalizarCompra()">
+    Finalizar pelo WhatsApp
+  </button>
+</section>
+
+<script src="cart.js"></script>
+</body>
+</html>
